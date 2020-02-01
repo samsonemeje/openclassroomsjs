@@ -1,0 +1,14 @@
+{
+  "name": "learn-programming-with-javascript-activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "node node_modules/live-server/live-server --port=8081"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

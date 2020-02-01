@@ -1,0 +1,95 @@
+.search-bar input {
+  border: none;
+  margin: 0;
+}
+.search-bar input:focus {
+  outline: none;
+}
+.search-bar i {
+  background-color: white;
+  padding: 0.3em;
+  margin: 0;
+  border-radius: 5px 0 0 5px;
+  transform: translateX(0.25em);
+}
+
+.current-books {
+  margin: 50px 0;
+  height: 500px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.current-books-prev {
+  transform: translateX(-150%);
+}
+
+.current-books-next {
+  transform: translateX(150%);
+}
+
+.current-book-frame {
+  position: relative;
+  height: 480px;
+  background: white;
+  width: 80%;
+  margin: 10px 10%;
+  display: flex;
+}
+
+.current-book-frame-img {
+  position: relative;
+  width: 30%;
+}
+.current-book-frame-img i {
+  color: lightgray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewX(-10deg);
+}
+
+.current-book-frame-content {
+  position: relative;
+  padding: 1em;
+  width: 70%;
+}
+
+.current-book-progress {
+  width: 60%;
+}
+
+.progress-form {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.progress-form input {
+  width: 70px;
+  margin: 0 5px;
+}
+.progress-form button {
+  margin-left: 20px;
+}
+
+footer {
+  padding: 30px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.company-links ul {
+  list-style: none;
+}
+
+.social-links i {
+  color: lightgray;
+  margin: 0 5px;
+}
+
+.read-books-list {
+  width: 60%;
+}
+
+/*# sourceMappingURL=styles.css.map */
