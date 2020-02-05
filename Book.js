@@ -1,5 +1,5 @@
 export class Book {
-    constructor(title, author, description, pages, currentPage, read) {
+    constructor(title, author, description, pages, currentPage) {
       this.title = title;
       this.author = author;
       this.description = description;
@@ -9,14 +9,14 @@ export class Book {
     }
   
     readBook(page) {
-      return "page" + this.currentPage;
+      "page" + this.currentPage;
       if (page < 1 || page > pages) {
-        return (readBook = 0);
+        return 0;
       } else if (page >= 1 && page < pages) {
-        readBook = page;
+        page = this.currentPage;
         return 1;
       } else if (page === pages) {
-        readBook = page;
+        page = this.currentPage;
         this.read = true;
         return 1;
       }
